@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Socket Worker Manager Test</title>
+</head>
+<body>
+	<button onclick="socket.emit('hello', 'asdgsdfasdgsd');">Test</button>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io('http://localhost');
+  socket.on('news', function (data) {
+    console.log(data);
+  });
+</script>
+</html>

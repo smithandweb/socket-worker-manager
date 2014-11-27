@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/smithandweb/socket-worker-manager/issues"
   },
-  "homepage": "https://github.com/smithandweb/socket-worker-manager"
+  "homepage": "https://github.com/smithandweb/socket-worker-manager",
+  "devDependencies": {
+    "socket.io": "^1.2.1"
+  }
 }
